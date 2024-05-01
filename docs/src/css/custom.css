@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  @apply bg-red;
+}
+
+.navbar a {
+  @apply text-white !important;
+}
+.footer {
+  @apply bg-purple text-white;
+}
