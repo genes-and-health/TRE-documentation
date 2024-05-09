@@ -1,47 +1,24 @@
 ---
+sidebar_label: 'Introduction'
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## **Overview**
 
-## Getting Started
 
-Get started by **creating a new site**.
+Genes & Health is a long term genomic medicine longitudinal population study of British Bangladeshi and British Pakistani adult (age 16+) volunteers. This involves volunteers providing a saliva DNA sample,  consent to data linkage to multi-source NHS electronic health records and consent to be invited for further research (with further ethics/consent step).
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Participants who have consented to be contacted for further research may be contacted by the Genes & Health team for further research studies. These studies will have their own ethics and consent processes, and may involve further data collection (e.g. blood samples, questionnaires, interviews, etc).
 
-### What you'll need
+## **Cohort Profile**
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+The Genes & Health cohort profile was published in the International Journal of Epidemiology in 2020. The full text is available [here](https://doi.org/10.1093/ije/dyz174). This paper provides a comprehensive overview of the cohort, including the study design, recruitment, data collection, and baseline characteristics of the participants, and we recommend reading it before using the data. At the time of publication, the cohort consisted of 38,000 participants. Since then, recruitment has continued, and the cohort now includes over 55,000 participants (updated in April 2024). 
 
-## Generate a new site
+In addition to East London, the study has expanded to Bradford and Manchester.
 
-Generate a new Docusaurus site using the **classic template**.
+## **Website and Social Media**
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Website [www.genesandhealth.org](https://www.genesandhealth.org)
+- X (formally Twitter)[@eastlondongenes](https://twitter.com/eastlondongenes) [@bradfordgenes](https://twitter.com/BradfordGenes) [@manchestergenes](https://twitter.com/manchestergenes?lang=en-GB)

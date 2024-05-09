@@ -80,7 +80,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       
       navbar: {
-        title: 'TRE Docs',
+        title: 'TRE Documentation',
         logo: {
           alt: 'Genes and Health Logo',
           src: 'img/genes-and-health-logo.svg',
@@ -99,8 +99,8 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/genes-and-health/new-docs',
+            label: 'TRE Documentation GitHub',
             position: 'right',
           },
         ],
@@ -113,24 +113,20 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/introduction',
               },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/GenesHealth',
               },
             ],
           },
@@ -142,8 +138,8 @@ const config = {
               //   to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TRE Documentation GitHub',
+                href: 'https://github.com/genes-and-health/new-docs',
               },
             ],
           },
@@ -156,5 +152,6 @@ const config = {
       },
     }),
 };
+
 
 export default config;
