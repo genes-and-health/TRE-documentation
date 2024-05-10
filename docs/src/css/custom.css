@@ -41,6 +41,6 @@
 
 /* Change color of all links in the body to blue */
 body a {
-  color: blue;
+  color: rgb(24, 24, 227);
 }
 

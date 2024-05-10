@@ -1,8 +1,11 @@
 ---
+sidebar_label: 'Trusted Research Environment (TRE)'
 sidebar_position: 3
 ---
 
-# Trusted Research Environment (TRE)
+# 
+
+## **Trusted Research Environment (TRE)**
 
 Genes and Health uses a Trusted Research Environment (TRE) to provide access to its data. This is a secure platform that allows researchers to analyse the data without the need to download it.  Genetic and health record data (curated and raw) are regularly updated and maintained in the TRE. 
 

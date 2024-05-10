@@ -19,49 +19,47 @@ const sidebars = {
   // But you can create a sidebar manually
 
   introSidebar: [
-    'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
+    'introduction/intro',
+    'introduction/team',
+    'introduction/tre',
+    'introduction/roadmap',
   ],
 
-  gettingStartedSidebar: [
-    'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
+  // gettingStartedSidebar: [
+  //   'team',
+  //   {
+  //     type: 'category',
+  //     label: 'getting',
+  //     items: ['team'],
+  //   },
+  // ],
 
-  howToSidebar: [
-    'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
+  // howToSidebar: [
+  //   'intro',
+  //   {
+  //     type: 'category',
+  //     label: 'Tutorial',
+  //     items: ['tutorial-basics/create-a-document'],
+  //   },
+  // ],
 
-  explainersSidebar: [
-    'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
+  // explainersSidebar: [
+  //   'intro',
+  //   {
+  //     type: 'category',
+  //     label: 'Tutorial',
+  //     items: ['tutorial-basics/create-a-document'],
+  //   },
+  // ],
 
-  referencesSidebar: [
-    'intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
+  // referencesSidebar: [
+  //   'intro',
+  //   {
+  //     type: 'category',
+  //     label: 'Tutorial',
+  //     items: ['tutorial-basics/create-a-document'],
+  //   },
+  // ],
 
   
 };

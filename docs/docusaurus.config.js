@@ -88,22 +88,22 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'introSidebar',
             position: 'left',
-            label: 'Getting started',
+            label: 'Introduction',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/genes-and-health/new-docs',
-            label: 'TRE Documentation GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'gettingStartedSidebar',
+          //   position: 'left',
+          //   label: 'Getting started',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/genes-and-health/new-docs',
+          //   label: 'TRE Documentation GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
