@@ -25,14 +25,17 @@ const sidebars = {
     'introduction/roadmap',
   ],
 
-  // gettingStartedSidebar: [
-  //   'team',
-  //   {
-  //     type: 'category',
-  //     label: 'getting',
-  //     items: ['team'],
-  //   },
-  // ],
+  gettingStartedSidebar: [
+    'getting-started/profile_setup',
+    'getting-started/data_out',
+    'getting-started/prerequisites',
+    'getting-started/sandboxes',
+    'getting-started/software_available',
+    'getting-started/starting_the_tre',
+    'getting-started/training_video',
+    'getting-started/tre_organisation',
+    'getting-started/where_data',
+  ],
 
   // howToSidebar: [
   //   'intro',

@@ -92,12 +92,12 @@ const config = {
             position: 'left',
             label: 'Introduction',
           },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'gettingStartedSidebar',
-          //   position: 'left',
-          //   label: 'Getting started',
-          // },
+          {
+            type: 'docSidebar',
+            sidebarId: 'gettingStartedSidebar',
+            position: 'left',
+            label: 'Getting started',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/genes-and-health/new-docs',
