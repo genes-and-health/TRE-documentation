@@ -98,6 +98,13 @@ const config = {
             position: 'left',
             label: 'Getting started',
           },
+
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/genes-and-health/new-docs',
