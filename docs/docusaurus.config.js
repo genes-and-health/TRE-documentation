@@ -90,14 +90,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Getting Started',
+            label: 'Tutorial',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'introSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Getting started',
           },
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/genes-and-health/new-docs',
             label: 'TRE Documentation GitHub',

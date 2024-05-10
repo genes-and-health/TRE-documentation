@@ -18,7 +18,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
-  saeedSidebar: [
+  introSidebar: [
     'intro',
     {
       type: 'category',
@@ -26,6 +26,44 @@ const sidebars = {
       items: ['tutorial-basics/create-a-document'],
     },
   ],
+
+  gettingStartedSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial-basics/create-a-document'],
+    },
+  ],
+
+  howToSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial-basics/create-a-document'],
+    },
+  ],
+
+  explainersSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial-basics/create-a-document'],
+    },
+  ],
+
+  referencesSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial-basics/create-a-document'],
+    },
+  ],
+
+  
 };
 
 export default sidebars;
