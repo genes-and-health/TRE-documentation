@@ -1,4 +1,13 @@
-<!-- ### consortiumpriorityperiod-library-red
+---
+sidebar_label: 'Overview of folder structures'
+sidebar_position: 3
+---
+
+# 
+
+## **Overview**
+
+### consortiumpriorityperiod-library-red
 
 This bucket is only available to the core Genes & Health team, and to companies in the Genes & Health Industry Consortium. It contains data restricted during 9 month priority access periods (e.g. exome sequencing). Specifically, read access is only for sandboxes 1 3 4 5 6 7 9 10 13.
 
@@ -86,5 +95,3 @@ To say this another way: imagine you accidentally alter or delete a file in the 
 Restoring a prior version of an accidentally removed or modified file requires utilities only available to administrators: if you need this, contact us using Slack or writing to [hgi@sanger.ac.uk](mailto:hgi@sanger.ac.uk), including the word "Urgent" in the subject header.
 
 ## Figure of Directory Structure
-
-![](RackMultipart20230315-1-192w74_html_6313b8e8b50e4e27.png) -->

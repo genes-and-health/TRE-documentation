@@ -1,4 +1,13 @@
-<!-- # Raw health data description
+---
+sidebar_label: 'What do the raw data look like'
+sidebar_position: 6
+---
+
+# 
+
+## **Overview**
+
+# Raw health data description
 
 **UNDER CONSTRUCTION**
 
@@ -565,4 +574,4 @@ For most users and use cases, this documment should serve as a reference guide o
 |S1QST_Oragene_ID      |S1QST_MM-YYYY_ofBirth |S1QST_EthnicGroup     |S1QST_EthnicGroupOther |S1QST_NHSnumber_comment |S1QST_Diabetes        |S1QST_ParentsBloodRelated |S1QST_ParentsBloodRelated2 |S1QST_ParentsBloodRelatedOther |S1QST_HealthWellbeing |
 |:---------------------|:---------------------|:---------------------|:----------------------|:-----------------------|:---------------------|:-------------------------|:--------------------------|:------------------------------|:---------------------|
 |Type description here |Type description here |Type description here |Type description here  |Type description here   |Type description here |Type description here     |Type description here      |Type description here          |Type description here |
- -->
+

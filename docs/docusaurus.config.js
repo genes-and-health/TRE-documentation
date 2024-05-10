@@ -98,6 +98,13 @@ const config = {
             position: 'left',
             label: 'Getting started',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'explainersSidebar',
+            position: 'left',
+            label: 'Explainers',
+          },
+
 
           // {
           //   type: 'docSidebar',

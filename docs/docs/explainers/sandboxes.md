@@ -1,4 +1,13 @@
-<!-- ## Current list of sandboxes
+---
+sidebar_label: 'What sandboxes are available'
+sidebar_position: 2
+---
+
+# 
+
+## **Overview**
+
+## Current list of sandboxes
 
 | Sandbox | Organisation                                       | Pipelines | NHS Digital | IndustryConsortiumPriorityPeriod |
 |---------|----------------------------------------------------|-----------|-------------|----------------------------------|
@@ -18,4 +27,4 @@
 | 14      | External Academic, Consortium Access               |           |             |                                  |
 | 15      | 5 Prime Sciences                                   |           |             |                                  |
 | 16      | S00073 Levine Glastonbury                          |           |             |                                  |
-| 17      | Academic, NHS Digital access                       |           | ✓           |                                  | -->
+| 17      | Academic, NHS Digital access                       |           | ✓           |                                  |
