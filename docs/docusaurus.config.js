@@ -47,7 +47,7 @@ const config = {
     locales: ['en'],
   },
 
-  presets: [
+ presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
