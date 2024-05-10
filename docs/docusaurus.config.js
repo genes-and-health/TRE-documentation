@@ -104,6 +104,12 @@ const config = {
             position: 'left',
             label: 'Explainers',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'referencesSidebar',
+            position: 'left',
+            label: 'References',
+          },
 
 
           // {
