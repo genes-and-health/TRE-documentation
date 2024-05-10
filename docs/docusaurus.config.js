@@ -100,6 +100,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'howToSidebar',
+            position: 'left',
+            label: 'How to Guides',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'explainersSidebar',
             position: 'left',
             label: 'Explainers',
