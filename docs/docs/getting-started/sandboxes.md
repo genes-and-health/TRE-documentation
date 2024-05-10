@@ -1,4 +1,4 @@
-<!-- ---
+---
 sidebar_label: 'Sandboxes'
 sidebar_position: 4
 ---
@@ -11,4 +11,4 @@ You will likely only have access to one sandbox for your project/institution/com
 
 Only selected sandboxes have access to the WDL high performance compute Pipelines. At present, we will only enable Pipelines for sandboxes if you provide your own Google Cloud Billing Account (then you are responsible for any excess/inadvertent spend).
 
-See the list of [sandboxes](../explainers/sandboxes.md) for more information about the Sandboxes available and who has access to them. -->
+See the list of [sandboxes](../explainers/sandboxes.md) for more information about the Sandboxes available and who has access to them.

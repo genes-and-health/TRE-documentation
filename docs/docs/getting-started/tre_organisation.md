@@ -1,4 +1,4 @@
-<!-- ---
+---
 sidebar_label: 'Folder Structure'
 sidebar_position: 6
 ---
@@ -40,4 +40,4 @@ Available at `/library-red` in your sandbox, this is a read-only folder that is 
 
 We strongly recommend that you make your own directory in the red folder to store your data. This will allow you to share your data with other users in the same sandbox, without the risk of them accidentally deleting it.
 
-`red` has slower storage than `home/ivm` but is backed up, and we strongly recommend that you use this folder to store your data and any analysis files you are running frequently to avoid losing your work. -->
+`red` has slower storage than `home/ivm` but is backed up, and we strongly recommend that you use this folder to store your data and any analysis files you are running frequently to avoid losing your work.

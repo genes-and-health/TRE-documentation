@@ -1,4 +1,4 @@
-<!-- ---
+---
 sidebar_label: 'Prerequisites
 '
 sidebar_position: 1
@@ -47,7 +47,7 @@ accreditation.
     deactivated.
 
 
-[Genes & Health Code of Conduct]: /references/code_of_conduct
+[Genes & Health Code of Conduct]: ../references/code_of_conduct.md
 [NHS Data Security Awareness Level 1]: https://www.e-lfh.org.uk/programmes/data-security-awareness
 [Genes and Health]: mailto:genesandhealth@qmul.ac.uk
 [genesandhealth@qmul.ac.uk]: mailto:genesandhealth@qmul.ac.uk
@@ -57,4 +57,4 @@ accreditation.
 
 [Cyber Essentials]: https://www.ncsc.gov.uk/cyberessentials/overview
 [NHS Digital Data Security and Protection Toolkit]: https://digital.nhs.uk/data-and-information/looking-after-information/data-security-and-information-governance/data-security-and-protection-toolkit
-[ISO 27001]: https://www.iso.org/standard/27001 -->
+[ISO 27001]: https://www.iso.org/standard/27001
