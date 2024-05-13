@@ -2,46 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+Welcome to the documentation of the Genes and Health Trusted Research Environment (TRE). This documentation is intended to provide an overview of the TRE and its features, as well as guidance on how to use the platform. The documentation is divided into the following sections:
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- **Getting Started**: Provides a step by step guide on how to access the TRE and get started with your research. This is not intended to be a comprehensive guide, but rather a quick start guide to help you get up and running with the platform.
+- **Explainers**: Provides detailed explanations of the various features and gotchas of the TRE. This section is intended to explain why things work the way they do, and how to best use the platform.
+- **How To Guides**: Provides step by step guides on how to perform common tasks on the TRE. This section is intended to be a comprehensive guide on how to do specific common tasks on the platform.
+- **Reference**: Provides a reference guide to the TRE. 
 
-## Getting Started
+This is a living document and will be updated as new features are added to the platform or as the platform evolves. 
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Finally this documentation is open source and can be found on [GitHub](https:://github.com/genes-and-health/new-docs). If you find any issues with the documentation, or would like to contribute to it, please feel free to raise an issue or submit a pull request on GitHub. We welcome all contributions to the documentation. 
