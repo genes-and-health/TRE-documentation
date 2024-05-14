@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # 
 
-## **Overview**
+## Code of Conduct
 
 <a href="https://drive.google.com/file/d/1JpNU891kO5kvrMpMfH7qqtisuUQxn2pm/preview" target="_blank">Open in new window</a>
 

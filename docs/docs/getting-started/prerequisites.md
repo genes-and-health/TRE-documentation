@@ -11,6 +11,8 @@ Before users are able to access the Genes & Health data, they must complete the
 appropriate information governance training and confirm their acceptance of the
 [Genes & Health Code of Conduct][].
 
+:::note[Getting access steps]
+
 1. All users must read and accept the [Genes & Health Code of Conduct][].
 
 1. All users must complete the [NHS Data Security Awareness Level 1][] training 
@@ -32,6 +34,10 @@ all users must attest to the [Genes & Health Code of Conduct][] and upload
 their certificate to Genes and Health new user registration system. Please 
 contact [Genes and Health] at [genesandhealth@qmul.ac.uk][] for instructions 
 on how to access the new user registration system.
+
+:::
+
+
 
 These steps are important for our [Cyber Essentials][] certification, 
 [NHS Digital Data Security and Protection Toolkit][], and [ISO 27001][] 

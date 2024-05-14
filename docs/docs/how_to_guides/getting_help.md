@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # 
 
-## **Overview**
+## G&H Support
 
 Users and Administators can get help in a number of ways:
 

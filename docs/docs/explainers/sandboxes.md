@@ -4,10 +4,8 @@ sidebar_position: 2
 ---
 
 # 
-
-## **Overview**
-
 ## Current list of sandboxes
+
 
 | Sandbox | Organisation                                       | Pipelines | NHS Digital | IndustryConsortiumPriorityPeriod |
 |---------|----------------------------------------------------|-----------|-------------|----------------------------------|

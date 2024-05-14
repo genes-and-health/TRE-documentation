@@ -5,11 +5,11 @@ sidebar_position: 7
 
 # 
 
-## **Overview**
+## Phenotype Curation (UNDER CONSTRUCTION)
 
 This page provides a few examples of how the raw health data in the TRE have been curated to produce useful output for a range of analyes. The files used in the examples below are all located in **genesandhealth/library-red**, please see the [page describing TRE file structures](/docs/explainers/file_structure.md) for further information. An overview of the different datafiles are available in the [raw phenotype data page](/docs/explainers/raw_phenotype_data_description.md) 
 
-# Phenotype Curation Tools
+### Tools
 The philosophy of the Genes and Health project is to provide researchers with the tools to generate their own phenotypes as well as providing a curated set of phenotypes. 
 
 The curated phenotypes are generated using the `tre-tools` package, which is a custom package developed by the Data Team. A curated phenotype is a phenotype that has been generated using a set of codelists that have been checked and validated by researchers in Genes and Health. 
