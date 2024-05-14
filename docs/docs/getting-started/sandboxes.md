@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # 
 
-## **Overview**
+## **Sandboxes**
 
 You will likely only have access to one sandbox for your project/institution/company and this is likely to be shared with some other users. However some users will have multiple sandbox access, these can be seen and switched between in the top right menu.
 

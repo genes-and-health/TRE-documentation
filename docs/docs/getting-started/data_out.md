@@ -5,7 +5,7 @@ sidebar_position: 9
 
 # 
 
-## **Overview**
+## Getting your results out
 
 You might be wondering how do I get my results of my analytical code 
 out into the world so they can be used in publications or other studies. 
@@ -17,7 +17,18 @@ Individual level data is not allowed out of the TRE. Any data out requests are r
 There are number of files in `library-green` that are available for download. These do not need a request to be made.
 
 ## Requesting data
-You can make a request to download your results by right-clicking the file and selecting "request file download" for any file in /genesandhealth/red or /genesandhealth/pipeline folders. This sends an automated email to the Genes & Health team. If you have not received a response within 48h please feel free to chase us up (e.g. by Slack). The team will copy the data to either /green (for users of your sandbox only, to be able to download) or to /library-green (for all users to be able to download)(see above).
+You can make a request to download your results by right-clicking the file and selecting "request file download" for any file in:
+
+```bash
+/genesandhealth/red
+```
+or
+
+```bash
+/genesandhealth/pipeline
+```
+
+ This sends an automated email to the Genes & Health team. If you have not received a response within 48h please feel free to chase us up (e.g. by Slack). The team will copy the data to either `/green` (for users of your sandbox only, to be able to download) or to `/library-green` (for all users to be able to download)(see above).
 
 ## Accessing TRE data from external systems/internet
 
@@ -27,16 +38,30 @@ Please note that whilst Finngen offers user upload using the green buckets, Gene
 
 From your external system, ideally linux server rather than laptop if you are downloading lots of data (e.g. our GWAS).
 
-Login to gcloud with _gcloud auth login_
+Login to gcloud with:
+
+```bash
+ _gcloud auth login_
+```
 
 Login with your [username@genesandhealth.qmul.ac.uk](mailto:username@genesandhealth.qmul.ac.uk) that you use for TRE access from your browser. It is likely to ask you to 2 Factor Authenticate either via phone or via a website link.
 
-Run something like _gsutil ls gs://qmul-sandbox-production-library-green/_
+Run something like:
+
+```bash
+ _gsutil ls gs://qmul-sandbox-production-library-green/_
+```
 
 Or better, from a multicore linux server, and especially if you are trying to transfer lots of data/files
 
+```bash
 _gsutil -m ls gs://qmul-sandbox-production-library-green/_
+```
 
-To transfer file use _gsutil -m cp_ or _gsutil -m rsync_
+To transfer file use:
+
+```bash
+_gsutil -m cp_ or _gsutil -m rsync_
+```
 
 Lots of helpful information on gsutil via google search.
