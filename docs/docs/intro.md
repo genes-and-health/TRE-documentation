@@ -1,4 +1,5 @@
 ---
+sidebar_label: 'Overview of Docs'
 sidebar_position: 1
 ---
 

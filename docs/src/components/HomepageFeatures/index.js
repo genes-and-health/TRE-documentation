@@ -1,18 +1,18 @@
 import styles from './styles.module.css';
 
 const FeatureList = [
+  // {
+  //   title: 'Introduction',
+  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  //   description: (
+  //     <>
+  //       Get up and running quickly with our easy-to-follow quick start guide.
+  //       This aims to get you started without much explanation. 
+  //     </>
+  //   ),
+  // },
   {
-    title: 'Getting Started Guide',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Get up and running quickly with our easy-to-follow quick start guide.
-        This aims to get you started without much explanation. 
-      </>
-    ),
-  },
-  {
-    title: 'How To Guides',
+    title: 'Getting started',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -21,6 +21,18 @@ const FeatureList = [
       </>
     ),
   },
+
+  {
+    title: 'How to guides',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Step-by-step guides to help you implement specific tasks, such as 
+        installing new software or moving data around. 
+      </>
+    ),
+  },
+
   {
     title: 'Explainers',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,

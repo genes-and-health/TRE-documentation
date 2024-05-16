@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base; This causes font size issue*/
 @tailwind components;
 @tailwind utilities;
 
@@ -12,3 +12,63 @@
 .footer {
   @apply bg-purple text-white;
 }
+
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3578e5; /*#25c2a0;*/
+  --ifm-color-primary-dark: #1d68e1; /*rgb(33, 175, 144);*/
+  --ifm-color-primary-darker: #1b62d4; /*rgb(31, 165, 136);*/
+  --ifm-color-primary-darkest: #1751af; /*rgb(26, 136, 112);*/
+  --ifm-color-primary-light: #4e89e8; /*rgb(70, 203, 174);*/
+  --ifm-color-primary-lighter: #5a91ea; /*rgb(102, 212, 189);*/
+  --ifm-color-primary-lightest: #80aaef; /*rgb(146, 224, 208);*/
+  --ifm-code-font-size: 90%; /*95%;*/
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Change color of all links in the body to blue */
+body a {
+  color: rgb(24, 24, 227);
+}
+
+[class^=h1Heading] {
+  font-size: 2rem;
+}
+/* Header Dropdown Menu */
+/* .dropdown__link {
+  font-size: inherit;
+} */
+
+/* 
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  article header h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero .hero__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  article header h1 {
+    font-size: 2rem !important;
+  }
+} */
