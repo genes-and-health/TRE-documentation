@@ -2,6 +2,9 @@
 sidebar_label: 'Overview of Docs'
 sidebar_position: 1
 ---
+# 
+
+## **Overview of Docs**
 
 Welcome to the documentation of the Genes and Health Trusted Research Environment (TRE). This documentation is intended to provide an overview of the TRE and its features, as well as guidance on how to use the platform. The documentation is divided into the following sections:
 

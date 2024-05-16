@@ -13,7 +13,7 @@ const CustomLayout = ({ children }) => {
                     </Link>
                 </div>
                 <nav>
-                    <Link to="/docs/intro">Docs</Link>
+                    <Link to="/docs/introduction/intro">Docs</Link>
                     <Link to="/blog">Blog</Link>
                 </nav>
             </header>

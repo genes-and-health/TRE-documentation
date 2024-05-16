@@ -1,6 +1,6 @@
 ---
-sidebar_label: 'Overview'
-sidebar_position: 1
+sidebar_label: 'Overview of Project'
+sidebar_position: 2
 ---
 
 # 
