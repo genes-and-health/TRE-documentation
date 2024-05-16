@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h5 className="text-xl font-semibold mb-4">Docs</h5>
             <ul>
-              <li><Link className="text-gray-300 hover:text-white" to="/docs/intro">Getting Started</Link></li>
+              <li><Link className="text-gray-300 hover:text-white" to="/docs/introduction/intro">Getting Started</Link></li>
             </ul>
           </div>
           <div>

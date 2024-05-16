@@ -1,0 +1,10 @@
+{
+    "fonts": {
+      "font_family": {
+        "primary": "Mulish:wght@300;400;500;600;700",
+        "primary_type": "sans-serif",
+        "secondary": "Mulish:wght@300;400;500;600;700",
+        "secondary_type": "sans-serif"
+      }
+    }
+  }
