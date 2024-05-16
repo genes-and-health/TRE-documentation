@@ -23,6 +23,7 @@ const config = {
         },
       };
     },
+    require.resolve('docusaurus-lunr-search')
   ],
 
   // Set the production url of your site here
@@ -181,5 +182,5 @@ const config = {
 };
 
 
-
 export default config;
+

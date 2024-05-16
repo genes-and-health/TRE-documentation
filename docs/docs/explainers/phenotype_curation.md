@@ -7,7 +7,7 @@ sidebar_position: 7
 
 ## Phenotype Curation (UNDER CONSTRUCTION)
 
-This page provides a few examples of how the raw health data in the TRE have been curated to produce useful output for a range of analyes. The files used in the examples below are all located in **genesandhealth/library-red**, please see the [page describing TRE file structures](/docs/explainers/file_structure.md) for further information. An overview of the different datafiles are available in the [raw phenotype data page](/docs/explainers/raw_phenotype_data_description.md) 
+This page provides a few examples of how the raw health data in the TRE have been curated to produce useful output for a range of analyes. The files used in the examples below are all located in `genesandhealth/library-red`, please see the [page describing TRE file structures](/docs/explainers/file_structure.md) for further information. An overview of the different datafiles are available in the [raw phenotype data page](/docs/explainers/raw_phenotype_data_description.md) 
 
 ### Tools
 The philosophy of the Genes and Health project is to provide researchers with the tools to generate their own phenotypes as well as providing a curated set of phenotypes. 
@@ -53,7 +53,7 @@ For more information on how to use the `tre-tools` package, please see the [tre-
 ## Binary Traits
 Binary traits are those that have two possible outcomes, such as disease status (e.g. diabetes, hypertension). A person either has the disease or they do not.
 
-The raw health data in the TRE is curated to produce binary traits for a range of analyses. The files used in the examples below are all located in **genesandhealth/library-red**. There is a lengthy readme file in the folder that describes the data in detail, along with timestamps for when the data was last updated. We recommend that you read this file before using the data.
+The raw health data in the TRE is curated to produce binary traits for a range of analyses. The files used in the examples below are all located in `genesandhealth/library-red`. There is a lengthy readme file in the folder that describes the data in detail, along with timestamps for when the data was last updated. We recommend that you read this file before using the data.
 
 The binary traits data was generated using the `tre-tools` custom package. The code is available at [tre-tools](https://github.com/genes-and-health/tre-tools). The data has been cleaned and processed for use in a range of analyses. The data includes all the primary care and hospital data for the Genes and Health cohort, and has been processed and saved in a format that is easy to use for a different types of analyses. The cleaning processes are described in the README file in the folder but in summary:
 
