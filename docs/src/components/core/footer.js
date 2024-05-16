@@ -16,7 +16,7 @@ export default function Footer() {
             <h5 className="text-xl font-semibold mb-4">Community</h5>
             <ul>
               <li><Link className="text-gray-300 hover:text-white" to="https://github.com/genes-and-health/new-docs/issues">Issues</Link></li>
-              <li><Link className="text-gray-300 hover:text-white" to="https://twitter.com/docusaurus">Twitter</Link></li>
+              <li><Link className="text-gray-300 hover:text-white" to="https://twitter.com/GenesHealth">Twitter</Link></li>
             </ul>
           </div>
           <div>

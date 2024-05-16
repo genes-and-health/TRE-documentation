@@ -23,6 +23,7 @@ const config = {
         },
       };
     },
+    require.resolve('docusaurus-lunr-search')
   ],
 
   // Set the production url of your site here
@@ -47,7 +48,7 @@ const config = {
     locales: ['en'],
   },
 
-  presets: [
+ presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
@@ -80,7 +81,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       
       navbar: {
-        title: 'TRE Docs',
+        title: 'TRE Documentation',
         logo: {
           alt: 'Genes and Health Logo',
           src: 'img/genes-and-health-logo.svg',
@@ -88,21 +89,48 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'introSidebar',
             position: 'left',
-            label: 'Getting Started',
+            label: 'Introduction',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'gettingStartedSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Getting started',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'docSidebar',
+            sidebarId: 'howToSidebar',
+            position: 'left',
+            label: 'How to Guides',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'explainersSidebar',
+            position: 'left',
+            label: 'Explainers',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'referencesSidebar',
+            position: 'left',
+            label: 'References',
+          },
+
+
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/genes-and-health/new-docs',
+          //   label: 'TRE Documentation GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -120,17 +148,13 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/GenesHealth',
               },
             ],
           },
@@ -142,8 +166,8 @@ const config = {
               //   to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'TRE Documentation GitHub',
+                href: 'https://github.com/genes-and-health/new-docs',
               },
             ],
           },
@@ -157,4 +181,6 @@ const config = {
     }),
 };
 
+
 export default config;
+
