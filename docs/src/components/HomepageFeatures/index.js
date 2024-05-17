@@ -13,7 +13,7 @@ const FeatureList = [
   // },
   {
     title: 'Getting started',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/getting-started.svg').default,
     description: (
       <>
         Step-by-step guides to help you implement specific tasks, such as 
@@ -24,7 +24,7 @@ const FeatureList = [
 
   {
     title: 'How to guides',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/how-to-guides.svg').default,
     description: (
       <>
         Step-by-step guides to help you implement specific tasks, such as 
@@ -35,7 +35,7 @@ const FeatureList = [
 
   {
     title: 'Explainers',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/explainer-videos.svg').default,
     description: (
       <>
         Deep dives into the why and how of the TRE, and why certain procedures
@@ -45,7 +45,7 @@ const FeatureList = [
   },
   {
     title: 'Reference',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/reference.svg').default,
     description: (
       <>
         Useful reference material for the TRE. 

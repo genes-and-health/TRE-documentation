@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>reference-green-white copy 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reference-green-white-copy-2">
+            <circle id="Oval" fill="#312849" cx="500" cy="500" r="500"></circle>
+            <g id="magnifying-glass-solid" transform="translate(265.000000, 253.000000)" fill="#45BF87" fill-rule="nonzero">
+                <path d="M416,208 C416,253.9 401.1,296.3 376,330.7 L502.6,457.4 C515.1,469.9 515.1,490.2 502.6,502.7 C490.1,515.2 469.8,515.2 457.3,502.7 L330.7,376 C296.3,401.2 253.9,416 208,416 C93.1,416 0,322.9 0,208 C0,93.1 93.1,0 208,0 C322.9,0 416,93.1 416,208 Z M208,352 C259.446245,352 306.984537,324.553756 332.70766,280 C358.430783,235.446245 358.430783,180.553755 332.70766,136 C306.984537,91.446244 259.446245,64 208,64 C128.470996,64 64,128.470996 64,208 C64,287.529004 128.470996,352 208,352 L208,352 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
