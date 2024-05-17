@@ -81,7 +81,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       
       navbar: {
-        title: 'TRE Documentation',
+        title: 'Documentation',
         logo: {
           alt: 'Genes and Health Logo',
           src: 'img/genes-and-health-logo.svg',
