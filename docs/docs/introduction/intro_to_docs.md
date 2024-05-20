@@ -15,4 +15,4 @@ Welcome to the documentation of the Genes and Health Trusted Research Environmen
 
 This is a living document and will be updated as new features are added to the platform or as the platform evolves. 
 
-Finally this documentation is open source and can be found on [GitHub](https:://github.com/genes-and-health/new-docs). If you find any issues with the documentation, or would like to contribute to it, please feel free to raise an issue or submit a pull request on GitHub. We welcome all contributions to the documentation. 
+Finally this, documentation is open source and can be found on [GitHub](https:://github.com/genes-and-health/new-docs). If you find any issues with the documentation, or would like to contribute to it, please feel free to raise an issue or submit a pull request on GitHub. We welcome all contributions to the documentation. 
