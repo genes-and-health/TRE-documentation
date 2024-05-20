@@ -19,7 +19,7 @@ If you want to go a specific sandbox, you can use the following URL, and replace
 
 ## Choosing your required machine configuration
 
-Once you have logged in, you will be taken to the **Virtual Machines** page. Here you can start a new machine, or connect to an existing one.
+Once logged in, you will be taken to the **Virtual Machines** page where you can start a new machine or connect to an existing one.
 
 ![IVM](images/config.png)
 
@@ -27,19 +27,19 @@ You will be offered a variety of virtual machine types.
 
 :::warning
 
-Choose the **Standard** machine unless there is a need for executing particular script that uses high memory or requires increased CPU capacity, and only once you have tested your script works on the Standard machine as the other options cost more.
+Choose the **Standard** machine unless a script requires high memory or increased CPU capacity. Test your script on the Standard machine first, as other options are more expensive.
 
 :::
 
-Note that there are a few machine types with lots of CPUs - these can be good for multithreaded applications such as plink or regenie that can make full use of these - sometimes these applications can run input/output too fast for the standard google bucket storage, and you might need to copy key files to local faster storage (see below).
+**Note**: Some machine types have many CPUs, which are suitable for multithreaded applications like plink or regenie that can fully utilise them. These applications may sometimes run input/output operations too quickly for standard Google bucket storage, requiring you to copy key files to faster local storage (see below).
 
 ## Switching off the machine
 
-Your virtual machine will keep running for 48 hours if you are doing nothing. You can disconnect from Chrome, turn your laptop off, and then you will be straight back into the exact same machine when you connect again (within 48h). If you have linux jobs running, the machine will keep going while these run (however long) plus another 48h.
+Your virtual machine will keep running for 48 hours if you are doing nothing. You can disconnect from Chrome, turn your laptop off, and then you will be straight back into the exact same machine when you connect again (within 48h). If you have Linux jobs running, the machine will keep going while these run (however long) plus another 48h.
 
 :::warning
 
-Keeping machine running in the background costs money. So **please actively shutdown (if you don't need the extra 48h) using the little off button on the bottom of the side menu.**
+Keeping machine running in the background costs money. So **please actively shutdown (if you do not need the extra 48h) using the little off button on the bottom of the side menu.**
 
 :::
 

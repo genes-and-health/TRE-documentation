@@ -8,28 +8,29 @@ export default function Footer() {
         <div className="grid grid-cols-3 gap-8">
           <div>
             <h5 className="text-xl font-semibold mb-4">Docs</h5>
-            <ul>
+            <ul className="list-none"> {/* Added class "list-none" */}
               <li><Link className="text-gray-300 hover:text-white" to="/docs/introduction/intro">Getting Started</Link></li>
             </ul>
           </div>
           <div>
             <h5 className="text-xl font-semibold mb-4">Community</h5>
-            <ul>
+            <ul className="list-none"> {/* Added class "list-none" */}
               <li><Link className="text-gray-300 hover:text-white" to="https://github.com/genes-and-health/new-docs/issues">Issues</Link></li>
               <li><Link className="text-gray-300 hover:text-white" to="https://twitter.com/GenesHealth">Twitter</Link></li>
             </ul>
           </div>
           <div>
             <h5 className="text-xl font-semibold mb-4">More</h5>
-            <ul>
+            <ul className="list-none"> {/* Added class "list-none" */}
               <li><Link className="text-gray-300 hover:text-white" to="https://genesandhealth.org">Website</Link></li>
               <li><Link className="text-gray-300 hover:text-white" to="https://github.com/genes-and-health">GitHub</Link></li>
-              <li><Link className="text-gray-300 hover:text-white" to="https://github.com/genes-and-health/tre-tools">TRE Tools</Link></li>
+              {/* <li><Link className="text-gray-300 hover:text-white" to="https://github.com/genes-and-health/tre-tools">TRE Tools GitHub</Link></li> */}
             </ul>
           </div>
         </div>
       </div>
     </footer>
+
   );
 };
 

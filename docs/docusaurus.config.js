@@ -33,14 +33,14 @@ const config = {
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // If you are not using GitHub pages, you do not need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
+  // Even if you do not use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
@@ -153,6 +153,11 @@ const config = {
               //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               // },
               {
+                label: 'Issues',
+                href: 'https://github.com/genes-and-health/new-docs/issues',
+              },
+              
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/GenesHealth',
               },
@@ -166,9 +171,21 @@ const config = {
               //   to: '/blog',
               // },
               {
-                label: 'TRE Documentation GitHub',
-                href: 'https://github.com/genes-and-health/new-docs',
+                label: 'Website',
+                href: 'https://genesandhealth.org',
               },
+
+              {
+                label: 'GitHub',
+                href: 'https://github.com/genes-and-health/',
+              },
+
+              // {
+              //   label: 'TRE Tools GitHub',
+              //   href: 'https://github.com/genes-and-health/tre-tools',
+              // },
+              
+
             ],
           },
         ],
@@ -183,4 +200,3 @@ const config = {
 
 
 export default config;
-

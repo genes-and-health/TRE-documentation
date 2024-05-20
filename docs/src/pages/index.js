@@ -21,7 +21,7 @@ function HomepageHeader() {
         <div className="py-10">
           <Link
             className="bg-white rounded-md text-black px-4 py-2"
-            to="/docs/introduction/intro"
+            to="/docs/introduction/intro_to_docs"
           >
             Getting Started Guide
           </Link>

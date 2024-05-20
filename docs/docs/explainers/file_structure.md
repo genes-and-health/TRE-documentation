@@ -59,11 +59,11 @@ We also maintain a bucket for public datasets. This is not visible from within t
 
 `gs://genesandhealth\_publicdatasets/`
 
-## Copying between google buckets within the TRE
+## Copying between Google Buckets within the TRE
 
 Is permitted from within the TRE, subject to user read/write permissions as above.
 
-Admins may copy from google buckets to external systems. However external copy from external google buckets direct to/from TRE google buckets is prohibited for security reasons.
+Admins may copy from Google Buckets to external systems. However external copy from external Google Buckets direct to/from TRE Google Buckets is prohibited for security reasons.
 
 ## Backups
 

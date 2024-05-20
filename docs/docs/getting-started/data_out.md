@@ -32,11 +32,11 @@ or
 
 ## Accessing TRE data from external systems/internet
 
-Users can download data from green or library-green using linux command line gsutil (to install see [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)). Alternatively the browser based Google Cloud Console offers an easy method for simple storage tasks ([https://console.cloud.google.com/](https://console.cloud.google.com/)). Various other software tools also work with google storage.
+Users can download data from green or library-green using Linux command line gsutil (to install see [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)). Alternatively the browser based Google Cloud Console offers an easy method for simple storage tasks ([https://console.cloud.google.com/](https://console.cloud.google.com/)). Various other software tools also work with google storage.
 
 Please note that whilst Finngen offers user upload using the green buckets, Genes & Health has decided not to implement this for data security reasons.
 
-From your external system, ideally linux server rather than laptop if you are downloading lots of data (e.g. our GWAS).
+From your external system, ideally Linux server rather than laptop if you are downloading lots of data (e.g. our GWAS).
 
 Login to gcloud with:
 
@@ -52,7 +52,7 @@ Run something like:
  _gsutil ls gs://qmul-sandbox-production-library-green/_
 ```
 
-Or better, from a multicore linux server, and especially if you are trying to transfer lots of data/files
+Or better, from a multicore Linux server, and especially if you are trying to transfer lots of data/files
 
 ```bash
 _gsutil -m ls gs://qmul-sandbox-production-library-green/_

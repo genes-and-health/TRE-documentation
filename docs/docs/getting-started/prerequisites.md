@@ -31,7 +31,7 @@ before they're granted access to Genes and Health data.
 
 1. After completing the [NHS Data Security Awareness Level 1][] training course,
 all users must attest to the [Genes & Health Code of Conduct][] and upload 
-their certificate to Genes and Health new user registration system. Please 
+their certificate to Genes & Health new user registration system. Please 
 contact [Genes and Health] at [genesandhealth@qmul.ac.uk][] for instructions 
 on how to access the new user registration system.
 

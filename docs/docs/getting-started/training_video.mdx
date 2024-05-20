@@ -10,20 +10,20 @@ import ReactPlayer from 'react-player'
 
 
 ## Overview of the TRE and running a GWAS
-Genes and Health have provided a number of training videos to help researchers get started with the Trusted Research Environment (TRE). This is a 45 min tutorial in which GWAS using regenie is demonstrated (300Mb .mp4 download, updated 5 oct 2022). This video is a recording of a live demo session, and the quality is not perfect. It is recommended to watch the video in full screen mode.
+Genes & Health have provided a number of training videos to help researchers get started with the Trusted Research Environment (TRE). This is a 45-min tutorial in which GWAS using regenie is demonstrated (300Mb with mp4 format, updated 5 oct 2022). This video is a recording of a live demo session, and the quality may not be perfect. It is recommended to watch the video in full screen mode. Please feel free to download the video and watch it at your convenience.
+
 
 <ReactPlayer playing={false}
 controls url='https://www.dropbox.com/s/k6h5botp53xk3l6/TRE%20Training-20220928_160450-Meeting%20Recording.mp4?e=1&dl=0'/>    
 
-
-Please feel free to download the video and watch it at your convenience.
+<br />
 
 
 :::tip[GWAS EXAMPLE]
 
 You can find an example regenie script for binary trait GWAS below. Please feel free to adapt and reuse this script.
 
-* Please let your script run first on the cheap 2 core machine. Regenie has really good multithreading and will be fastest on the 64 core huge machine, but this costs. The 2 core machine is fast enough on a big multicore machine that you can run it just from the command line using a single all-chromosome pgen input file, no need for HPC or splitting by chromosome. Regenie will use all threads available minus 1 by default, so the big 64 core machine will run 63 times faster for the compute steps than the 2 core machine. It is fast enough on a big multicore machine that you can run several phenotypes. Obviously if you want to run 1000 phenotypes you will need to use Google HPC / WDL.
+* Please let your script run first on the cheap 2-core machine. Regenie has excellent multithreading capabilities and will perform best on the 64-core high-performance machine, but this option is expensive. The 2-core machine is sufficiently fast on a large multicore machine, allowing you to run it directly from the command line using a single all-chromosome pgen input file, without the need for HPC or splitting by chromosome. Regenie will utilise all available threads minus 1 by default, meaning the 64-core machine will run 63 times faster for the compute steps compared to the 2-core machine. It is fast enough on a large multicore machine to run several phenotypes. If you intend to run 1000 phenotypes, you will need to use Google HPC / WDL.
 
 ```jsx title="Regenie script example"
 ## RUN THIS FROM THE FOLDER WITH THE COVAR/PHENO FILES AND WHERE YOU WANT THE OUTPUT
