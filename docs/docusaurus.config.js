@@ -190,6 +190,13 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Genes and Health Documentation.`,
+        logo: {
+          alt: 'Genes and Health Logo',
+          // This default includes a positive & negative version, allowing for
+          // appropriate use depending on your site's style.
+          src: '/img/Genes_Health.png',
+          href: 'https://www.genesandhealth.org/',
+        },
       },
       prism: {
         theme: prismThemes.github,
