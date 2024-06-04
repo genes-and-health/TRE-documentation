@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TRE Documentation',
-  tagline: 'Making using Genes and Health easier',
+  tagline: 'Making using Genes and Health TRE easier',
   favicon: 'img/favicon.ico',
   plugins: [
     async function myPlugin(context, options) {
@@ -154,12 +154,12 @@ const config = {
               // },
               {
                 label: 'Issues',
-                href: 'https://github.com/genes-and-health/new-docs/issues',
+                to: 'https://github.com/genes-and-health/new-docs/issues',
               },
               
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/GenesHealth',
+                to: 'https://twitter.com/GenesHealth',
               },
             ],
           },
@@ -172,12 +172,12 @@ const config = {
               // },
               {
                 label: 'Website',
-                href: 'https://genesandhealth.org',
+                to: 'https://genesandhealth.org',
               },
 
               {
                 label: 'GitHub',
-                href: 'https://github.com/genes-and-health/',
+                to: 'https://github.com/genes-and-health/',
               },
 
               // {

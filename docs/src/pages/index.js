@@ -1,8 +1,8 @@
-import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+import Layout from '../components/core/layout';
+import Footer from '../components/core/footer';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
@@ -41,6 +41,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+      <Footer />
     </Layout>
   );
 }
