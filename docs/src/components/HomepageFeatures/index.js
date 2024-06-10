@@ -1,18 +1,9 @@
 import styles from './styles.module.css';
 
 const FeatureList = [
-  // {
-  //   title: 'Introduction',
-  //   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-  //   description: (
-  //     <>
-  //       Get up and running quickly with our easy-to-follow quick start guide.
-  //       This aims to get you started without much explanation. 
-  //     </>
-  //   ),
-  // },
   {
     title: 'Getting started',
+    href: 'docs/getting-started/prerequisites',
     Svg: require('@site/static/img/getting-started.svg').default,
     description: (
       <>
@@ -24,6 +15,7 @@ const FeatureList = [
 
   {
     title: 'How to guides',
+    href: '/docs/how_to_guides/new_software',
     Svg: require('@site/static/img/how-to-guides.svg').default,
     description: (
       <>
@@ -35,6 +27,7 @@ const FeatureList = [
 
   {
     title: 'Explainers',
+    href: '/docs/explainers/tre',
     Svg: require('@site/static/img/explainer-videos.svg').default,
     description: (
       <>
@@ -45,6 +38,7 @@ const FeatureList = [
   },
   {
     title: 'Reference',
+    href: '/docs/references/code_of_conduct',
     Svg: require('@site/static/img/reference.svg').default,
     description: (
       <>
@@ -54,17 +48,17 @@ const FeatureList = [
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ Svg, title, description, href }) {
   return (
-    <div className="flex flex-col items-center w-full md:w-1/2 p-4"> {/* Responsive: full width on small screens, half width on medium screens and up */}
-      <div className="flex justify-center"> {/* Centers SVG horizontally */}
-        <Svg className="w-24 h-24" role="img" /> {/* Control size of SVG */}
-      </div>
-      <div className="text-center px-4"> {/* Centers text and applies horizontal padding */}
-        <h3 className="text-lg font-semibold text-black">{title}</h3> {/* Larger text for heading, semibold for emphasis */}
-        <p className="text-black">{description}</p> {/* Description remains standard paragraph */}
-      </div>
-    </div>
+        <a className="flex flex-col items-center w-full md:w-1/2 p-4" href={href}> {/* Responsive: full width on small screens, half width on medium screens and up */}
+        <div className="flex justify-center"> {/* Centers SVG horizontally */}
+          <Svg className="w-24 h-24" role="img" /> {/* Control size of SVG */}
+        </div>
+        <div className="text-center px-4"> {/* Centers text and applies horizontal padding */}
+          <h3 className="text-lg font-semibold text-black">{title}</h3> {/* Larger text for heading, semibold for emphasis */}
+          <p className="text-black">{description}</p> {/* Description remains standard paragraph */}
+        </div>
+      </a>
   );
 }
 
