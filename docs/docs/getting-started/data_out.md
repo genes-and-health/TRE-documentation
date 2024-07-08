@@ -11,7 +11,9 @@ You might be wondering how do I get my results of my analytical code
 out into the world so they can be used in publications or other studies. 
 
 ## What is allowed out?
-Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs etc are all usually fine.
+Individual level data is not allowed out of the TRE. Any data out requests are reviewed by the Genes & Health core team to make sure they do not contain individual level data. Summary statistics, graphs etc are all usually fine. For more information, please read the below policy document:
+
+[Download file: ](files/Policy_v2.5.pdf) Policy - open disclosure of phenotypes and variants with counts and small numbers - v2.5
 
 ## Existing data
 There are number of files in `library-green` that are available for download. These do not need a request to be made.
