@@ -21,7 +21,7 @@ If you want to go a specific sandbox, you can use the following URL, and replace
 
 Once logged in, you will be taken to the **Virtual Machines** page where you can start a new machine or connect to an existing one.
 
-![IVM](images/config.png)
+![IVM](files/config.png)
 
 You will be offered a variety of virtual machine types.
 
