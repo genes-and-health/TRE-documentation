@@ -34,9 +34,17 @@ or
 
 ## Accessing TRE data from external systems/internet
 
-Users can download data from green or library-green using Linux command line gsutil (to install see [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)). Alternatively the browser based Google Cloud Console offers an easy method for simple storage tasks ([https://console.cloud.google.com/](https://console.cloud.google.com/)). Various other software tools also work with google storage.
+For the __Old TRE__, users can download data from green or library-green using linux command line gsutil (to install see [https://cloud.google.com/storage/docs/gsutil](https://cloud.google.com/storage/docs/gsutil)). Alternatively the browser based Google Cloud Console offers an easy method for simple storage tasks ([https://console.cloud.google.com/](https://console.cloud.google.com/)). Various other software tools also work with google storage.
 
-Please note that whilst Finngen offers user upload using the green buckets, Genes & Health has decided not to implement this for data security reasons.
+For the __New TRE__, users can download data from greendownloads or library-green using linux command line [gsutil](https://cloud.google.com/storage/docs/gsutil).
+
+Alternatively, you can use the web-interface for your Sandbox specific green-downloads bucket, which you can find using the widget below:
+
+
+
+import SandboxSelector from '@site/src/components/sandbox_menu';
+
+<SandboxSelector />
 
 From your external system, ideally Linux server rather than laptop if you are downloading lots of data (e.g. our GWAS).
 
