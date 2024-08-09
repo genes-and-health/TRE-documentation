@@ -30,7 +30,7 @@ or
 /genesandhealth/pipeline
 ```
 
- This sends an automated email to the Genes & Health team. If you have not received a response within 48h please feel free to chase us up (e.g. by Slack). The team will copy the data to either `/green` (for users of your sandbox only, to be able to download) or to `/library-green` (for all users to be able to download)(see above).
+ This sends an automated email to the Genes & Health team. If you have not received a response within 48h please feel free to chase us up (e.g. by Slack). The team will copy the data to either `/green` (for users of your sandbox only, to be able to download) or to `/library-green` (for all users to be able to download)(see above). Please note that you can make one data out request per week.
 
 ## Accessing TRE data from external systems/internet
 
