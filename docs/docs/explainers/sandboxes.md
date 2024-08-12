@@ -22,7 +22,7 @@ sidebar_position: 2
 | 11      | University of Exeter                               |           |             |                                  |
 | 12      | Genomics PLC                                       | ✓         |             |                                  |
 | 13      | AstraZeneca                                        |           |             | ✓                                |
-| 14      | External Academic, Consortium Access               |           |             |                                  |
+| 14      | External Academic, Consortium Access               |           |             | ✓                                |
 | 15      | 5 Prime Sciences                                   |           |             |                                  |
 | 16      | S00073 Levine Glastonbury                          |           |             |                                  |
 | 17      | Academic, NHS Digital access                       |           | ✓           |                                  |
