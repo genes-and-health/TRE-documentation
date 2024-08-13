@@ -2,6 +2,7 @@
 
 This repo contains the code for the TRE Documentation Website (new, mid 2024-) which will 
 be hosted on Cloudflare Pages, and is built with a custom Docusaurus theme. THIS IS THE DOCUMENTATION WEBSITE IN CURRENT USE !!!
+The actual website is here https://documentation-docusaurus.pages.dev/
 
 ## Getting Started
 The website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. The easiest way to install Docusaurus is to use npm, which comes with [Node.js](https://nodejs.org/). Alternatively, you can use [Yarn](https://yarnpkg.com/).
