@@ -30,7 +30,7 @@ The admin team will review data out requests, and either place the data in green
 
 Same storage type as `/genesandhealth/library-red`, see comments above.
 
-`/genesandhealth/green` is a google bucket `gs://fg-qmul-production-sandbox-1\_green/` (read only for users, read+write only for admins) (replace the 1 with whichever sandbox you want)
+`/genesandhealth/green` is a google bucket `gs://fg-qmul-production-sandbox-1_green/` (read only for users, read+write only for admins) (replace the 1 with whichever sandbox you want)
 
 ### consortiumpriorityperiod-library-green
 
@@ -57,7 +57,7 @@ This is slower storage of large capacity (\>8 PiB @ Feb 2022)
 
 We also maintain a bucket for public datasets. This is not visible from within the TRE. Much of the data is mirrored in `genesandhealth/library-green/` within the TRE.
 
-`gs://genesandhealth\_publicdatasets/`
+`gs://genesandhealth_publicdatasets/`
 
 ## Copying between Google Buckets within the TRE
 

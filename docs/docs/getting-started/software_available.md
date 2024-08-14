@@ -43,8 +43,8 @@ We have installed IGV to run from the Linux Terminal command line (not the web b
 Example for the 5236 Wellcome Sanger Institute low depth exomes:
 
 ```bash
-/usr/local/bin/IGV\_Linux\_2.12.3/igv.sh --genome /genesandhealth/library-red/genesandhealth/exome\_seq/2019\_11\_\_5236\_GNHonly/crams/hs38DH.fa
-/genesandhealth/library-red/genesandhealth/exome\_seq/2019\_11\_\_5236\_GNHonly/crams/sc\_autozygELGH6823965.cramb
+/usr/local/bin/IGV_Linux_2.12.3/igv.sh --genome /genesandhealth/library-red/genesandhealth/exome_seq/2019_11__5236_GNHonly/crams/hs38DH.fa
+/genesandhealth/library-red/genesandhealth/exome_seq/2019_11__5236_GNHonly/crams/sc_autozygELGH6823965.cramb
 ```
 
 
