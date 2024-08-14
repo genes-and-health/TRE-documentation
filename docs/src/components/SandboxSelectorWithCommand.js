@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 const SandboxSelectorWithCommand = () => {
-    const [command, setCommand] = useState('gsutil cp -r -n my_file gs://$BUCKET_SANDBOX_IVM/');
+    const [command, setCommand] = useState('gsutil cp -r -n my_file gs://qmul-production-sandbox-1-red/');
 
     const handleChange = (event) => {
         const baseUrl = 'gsutil cp -r -n my_file gs://qmul-production-sandbox-';
