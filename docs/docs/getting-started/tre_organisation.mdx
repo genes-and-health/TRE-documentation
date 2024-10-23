@@ -27,7 +27,16 @@ The following is a high-level overview of the directories in the TRE:<br /><br /
   <TabItem value="red" label="red">`red` is used directly by the virtual machine, and is specific to each sandbox. Data that will not be used during job execution should be placed in the `red` directory, while any data actively being worked on should go in the `/home/ivm` directory. Users in the same sandbox can view the contents of the red folder. Most organisations use this folder to store and run their analysis. It is advisable to create your own directory in the red folder to store your data. This will allow you to share your data with other users in the same sandbox without risking accidental deletion by others. In the __Old TRE__ you can do this directly in the File Manager or on the Command Line. In the __New TRE__, files can only be copied to the `red` bucket by right-clicking on the file and selecting `Upload to red bucket`.<br /><br />
   ![Image showing Upload to red bucket option](images/upload.png)<br /><br />
   This can also be done via `gsutil` from within the TRE, for example:<br /><SandboxSelectorWithCommand/><br /> To remove a file from `/genesandhealth/red`, right-click on it in the File Manager and select `Delete from Red Bucket`.<br /><br />
-  ![Image showing Delete from red bucket option](images/remove.png)</TabItem>
+  ![Image showing Delete from red bucket option](images/remove.png)<br /><br />
+  The red directory is currently mounted to the machines as read-only and lacks some user permissions such as: the ability to upload files to a specific sub-directory, moving/editing files directly inside the red, and creating a new directory inside red by using the terminal.<br /><br />
+  Currently, there is no other space available as read/write. Some discussions are going on with the developers of TRE to make the use of buckets easier for collaboration and sharing and this will hopefully be improved in the future.<br /><br />
+  As a temporary work-around, you can mount a specific directory from red in your /home directory. Create a directory in your home directory with:<br />
+  mkdir /home/ivm/'[dir-name]'<br />
+  Replace the [dir-name] with a directory name of your choice.<br /><br />
+  Run the following command to mount a shared team directory from red to it:<br />
+  gcsfuse --implicit-dirs $SANDBOX_PROJECT-red --only-dir 'MY_TEAM_DIRECTORY' /home/ivm/'[dir-name]'<br />
+  Replace MY_TEAM_DIRECTORY with the name of a directory in 'red'. All the members of your team should be able to run this command to have the same shared files in the '/home/ivm/[dir-name]' directory.<br /><br />
+  'Note:' You will need to repeat the 'gcsfuse' command on each reboot of your VM, as it won't persist.</TabItem>
 
   <TabItem value="Home" label="Home">Available at `/home/ivm` in your sandbox, this is your personal folder. This folder can be used to store any files you wish to keep, but it is not backed up. If you delete a file from here, it is gone forever. `/home/ivm` is semi-fast (HDD) storage and as such is faster than other parts of the sandbox. It might be worth running some jobs here, especially if you are loading large amounts of data. However, remember that this folder is not backed up, so anything you want to keep should be moved to the red folder.</TabItem>
 </Tabs>
