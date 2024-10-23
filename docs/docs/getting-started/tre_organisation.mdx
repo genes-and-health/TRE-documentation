@@ -31,11 +31,11 @@ The following is a high-level overview of the directories in the TRE:<br /><br /
   The red directory is currently mounted to the machines as read-only and lacks some user permissions such as: the ability to upload files to a specific sub-directory, moving/editing files directly inside the red, and creating a new directory inside red by using the terminal.<br /><br />
   Currently, there is no other space available as read/write. Some discussions are going on with the developers of TRE to make the use of buckets easier for collaboration and sharing and this will hopefully be improved in the future.<br /><br />
   As a temporary work-around, you can mount a specific directory from red in your /home directory. Create a directory in your home directory with:<br />
-  mkdir /home/ivm/'<dir-name>'<br />
-  Replace the <dir-name> with a directory name of your choice.<br /><br />
+  mkdir /home/ivm/'[dir-name]'<br />
+  Replace the [dir-name] with a directory name of your choice.<br /><br />
   Run the following command to mount a shared team directory from red to it:<br />
-  gcsfuse --implicit-dirs $SANDBOX_PROJECT-red --only-dir 'MY_TEAM_DIRECTORY' /home/ivm/'<dir-name>'<br />
-  Replace MY_TEAM_DIRECTORY with the name of a directory in 'red'. All the members of your team should be able to run this command to have the same shared files in the '/home/ivm/<dir-name>' directory.<br /><br />
+  gcsfuse --implicit-dirs $SANDBOX_PROJECT-red --only-dir 'MY_TEAM_DIRECTORY' /home/ivm/'[dir-name]'<br />
+  Replace MY_TEAM_DIRECTORY with the name of a directory in 'red'. All the members of your team should be able to run this command to have the same shared files in the '/home/ivm/[dir-name]' directory.<br /><br />
   'Note:' You will need to repeat the 'gcsfuse' command on each reboot of your VM, as it won't persist.</TabItem>
 
   <TabItem value="Home" label="Home">Available at `/home/ivm` in your sandbox, this is your personal folder. This folder can be used to store any files you wish to keep, but it is not backed up. If you delete a file from here, it is gone forever. `/home/ivm` is semi-fast (HDD) storage and as such is faster than other parts of the sandbox. It might be worth running some jobs here, especially if you are loading large amounts of data. However, remember that this folder is not backed up, so anything you want to keep should be moved to the red folder.</TabItem>
