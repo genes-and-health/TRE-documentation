@@ -65,13 +65,13 @@ Run something like:
 Or better, from a multicore Linux server, and especially if you are trying to transfer lots of data/files
 
 ```bash
-_gsutil -m ls gs://qmul-sandbox-production-library-green/_
+gcloud storage buckets list gs://qmul-sandbox-production-library-green/_
 ```
 
 To transfer file use:
 
 ```bash
-_gsutil -m cp_ or _gsutil -m rsync_
+gcloud storage cp <local-file-path> gs://<bucket-name>/<destination-path>
 ```
 
 Lots of helpful information on gsutil via google search.
