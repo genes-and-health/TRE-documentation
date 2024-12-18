@@ -56,13 +56,13 @@ Login to gcloud with:
 
 Login with your [username@genesandhealth.qmul.ac.uk](mailto:username@genesandhealth.qmul.ac.uk) that you use for TRE access from your browser. It is likely to ask you to 2 Factor Authenticate either via phone or via a website link.
 
-Run something like:
+<!--Run something like:
 
 ```bash
  _gsutil ls gs://qmul-sandbox-production-library-green/_
 ```
-
-Or better, from a multicore Linux server, and especially if you are trying to transfer lots of data/files
+-->
+From a multicore Linux server, and especially if you are trying to transfer lots of data/files
 
 ```bash
 gcloud storage buckets list gs://qmul-sandbox-production-library-green/_
