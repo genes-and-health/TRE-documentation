@@ -16,9 +16,8 @@ explains how to do this.
 A small amount of text can be pasted in from external systems using the Clipboard tool. This does not allow copy/paste out. This might be useful should you need to copy in a difficult to write function for example. 
 
 ### Getting user data into the TRE
-For the __Old TRE__, only admins can upload (larger amounts of) data into the TRE. Please put in a helpdesk request if you require new data or software upload. Please email [hgi@sanger.ac.uk](mailto:hgi@sanger.ac.uk) to set up a ticket.
 
-For the __New TRE__, you can upload data to your Sandbox specific green-uploads bucket, which you can find using the widget below:
+You can upload data to your Sandbox specific green-uploads bucket, which you can find using the widget below:
 
 <SandboxSelector />
 

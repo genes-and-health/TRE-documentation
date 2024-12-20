@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 
 const SandboxSelectorWithOldNewLinks = () => {
     const [newUrl, setNewUrl] = useState('https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-1/vm');
-    const [oldUrl, setOldUrl] = useState('https://qmul-production.genesandhealth.qmul.ac.uk/fg-qmul-production-sandbox-1/vm');
+    const [oldUrl, setOldUrl] = useState('https://new-production.genesandhealth.qmul.ac.uk//fg-qmul-production-sandbox-1/vm');
 
     const handleChange = (event) => {
         const newBaseUrl = 'https://new-production.genesandhealth.qmul.ac.uk/qmul-production-sandbox-';
-        const oldBaseUrl = 'https://qmul-production.genesandhealth.qmul.ac.uk/fg-qmul-production-sandbox-';
+        const oldBaseUrl = 'https://new-production.genesandhealth.qmul.ac.uk//fg-qmul-production-sandbox-';
         const value = event.target.value;
         setNewUrl(`${newBaseUrl}${value}/vm`);
         setOldUrl(`${oldBaseUrl}${value}/vm`);
@@ -35,7 +35,6 @@ const SandboxSelectorWithOldNewLinks = () => {
                 <option value="17">Sandbox 17 - Academic, NHS Digital access</option>
             </select>
             <a style={{ display: 'block' }} href={newUrl}>{newUrl}</a>
-            <a href={oldUrl}>{oldUrl} - For the old version.</a>
         </div>
     );
 };

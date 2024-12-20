@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 
 const SandboxSelectorWithCommand = () => {
-    const [command, setCommand] = useState('gsutil cp -r -n my_file gs://qmul-production-sandbox-1-red/');
+    const [command, setCommand] = useState('gcloud storage cp -r -n my_file gs://new-production-sandbox-1-red/');
 
     const handleChange = (event) => {
-        const baseUrl = 'gsutil cp -r -n my_file gs://qmul-production-sandbox-';
+        const baseUrl = 'gcloud storage cp -r -n my_file gs://new-production-sandbox-';
         const value = event.target.value;
         setCommand(`${baseUrl}${value}-red/`);
     };
