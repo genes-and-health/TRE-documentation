@@ -68,3 +68,5 @@ The file browser for Xfce is called 'Thunar'. Settings and defaults _should_ per
 
 - Detailed view [ctrl + 2]
 - New tab [ctrl + t] (only works if the TRE is in fullscreen mode - Chrome will create a new tab otherwise)
+
+Minor test change (pls ignore)
