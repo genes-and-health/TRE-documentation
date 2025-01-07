@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # 
 
-## **Setting up a profile**
+<!-- ## **Setting up a profile** -->
 
 When first set up, users will get an email from Google (to their normal email address). This will have a [_username@genesandhealth.qmul.ac.uk_](mailto:username@genesandhealth.qmul.ac.uk) username. You need to Add this as a Profile in Google Chrome. Please do not try to use any other browser than Google Chrome! 
 

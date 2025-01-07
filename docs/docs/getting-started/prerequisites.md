@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 
 
-## Information Governance Training and Attestation
+<!-- ## Information Governance Training and Attestation -->
 Before users are able to access the Genes & Health data, they must complete the 
 appropriate information governance training and confirm their acceptance of the
 [Genes & Health Code of Conduct][].
