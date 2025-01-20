@@ -39,6 +39,18 @@ Choose the **Standard** machine unless a script requires high memory or increase
 
 **Note**: Some machine types have many CPUs, which are suitable for multithreaded applications like plink or regenie that can fully utilise them. These applications may sometimes run input/output operations too quickly for standard Google bucket storage, requiring you to copy key files to faster local storage (see below).
 
+## Choosing a custom machine configuration
+
+It is possible that sometimes you may require a Virtual Machine that offers resources different to the standard flavors i.e. higher-memory, higher-cpu or memory-optimised instances. You can choose a custom VM configuration from the **Virtual Machines** page by expanding the **Use custom Virtual Machine profile** section at the bottom.
+
+![IVM](files/customvm.png)
+
+:::warning
+
+Choose the **Use custom Virtual Machine profile** only when absolutely necessary, use **Standard** machine unless a script requires high memory or increased CPU capacity. Excess use of higher-spec machines can significantly impact running costs. Test your script on the Standard machine first, as other options are more expensive.
+
+:::
+
 ## Switching off the machine
 
 Your virtual machine will keep running for 48 hours if you are doing nothing. You can disconnect from Chrome, turn your laptop off, and then you will be straight back into the exact same machine when you connect again (within 48h). If you have Linux jobs running, the machine will keep going while these run (however long) plus another 48h.
