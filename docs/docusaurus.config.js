@@ -59,7 +59,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-            'https://github.com/genes-and-health/TRE-documentation/main/docs/docs/',
+            'https://github.com/genes-and-health/TRE-documentation/edit/main/docs/',
         },
         blog: {
           showReadingTime: true,
