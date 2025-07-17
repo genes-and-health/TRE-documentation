@@ -11,8 +11,6 @@ Before users are able to access the Genes & Health data, they must complete the
 appropriate information governance training and confirm their acceptance of the
 [Genes & Health Code of Conduct][].
 
-STU WOZ HERE 17.07.2025
-
 :::note[Getting access steps]
 
 1. All users must read and accept the [Genes & Health Code of Conduct][].
