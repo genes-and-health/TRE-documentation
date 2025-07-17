@@ -1,4 +1,3 @@
-<img width="884" height="672" alt="image" src="https://github.com/user-attachments/assets/e22a2efa-c22c-4f06-84f7-2f20bd3e2872" />
 ---
 sidebar_label: 'Prerequisites
 '
