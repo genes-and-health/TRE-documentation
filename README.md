@@ -1,5 +1,10 @@
 # Documentation
 
+THIS WEBSITE IS BEING ARCHIVED AS OF 24 JULY 2025, AND WE ARE MOVING TO A DIFFERENT WEBSITE / GITHUB REPO.
+THE LATEST DOCUMENTATION IS IN A GOOGLE DOCS
+DAVID VH  24 JULY 2025
+
+
 This repo contains the code for the TRE Documentation Website (new, mid 2024-) which will 
 be hosted on Cloudflare Pages, and is built with a custom Docusaurus theme. THIS IS THE DOCUMENTATION WEBSITE IN CURRENT USE !!!
 The actual website is here https://documentation-docusaurus.pages.dev/
